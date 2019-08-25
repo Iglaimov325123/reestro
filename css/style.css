@@ -690,14 +690,97 @@ width:36px;
 	background-position: center;
 }
 
+.btn-about-rating{
+	display: block;
+	border: 1px solid #2f2c3f;
+	color: #2f2c3f;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 14px 29px 10px;
+	width: 100%;
+	text-align: center;
+}
+.btn-about-rating:hover{
+	text-decoration: none;
+	color: #2f2c3f;
+	background-color: #f0f2f8;
+}
+.btn-register-company{
+	display: block;
+	border: 1px solid #e8440d;
+	color: #e8440d;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 14px 18px 10px;
+	width: 100%;
+	text-align: center;
+}
+.btn-register-company:hover{
+	text-decoration: none;
+	color: #e8440d;
+	background-color: #f0f2f8;
+}
+.site-reviews{
+	background-color: #f8f9fc;
+	margin-top: 30px;
+}
+.site-reviews h2{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.reviews-slider{
+	width: 100%;
+	margin: 30px 0px;
+}
+.reviews-slider .item{
+	width: 350px;
+	margin-right: 15px; 
+}
+.reviews-slider .item .text{
+	width: 100%;
+	padding: 20px 15px 60px;
+	font-size: 16px;
+	font-weight: 500;
+    font-style: italic;
+    border: 1px solid #bebdc3;
+}
+.reviews-slider .item .name-block{
+	height: 100px;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: -45px;
+}
+.reviews-slider .item .name-block .img{
+	width: 90px;
+	height: 100px;
+	border-radius: 20px;
 
-
-
-
-
-
-
-
+}
+.reviews-slider .item .name-block .img img{
+	width: 100%;
+}
+.reviews-slider .item .name-block .name{
+	height: 100px;
+	padding: 0px 0px 0px 20px;
+	vertical-align: bottom;
+	font-size: 14px;
+	font-weight: 200;
+	flex: 1;
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.reviews-slider .item .name-block .name div{
+	font-size: 16px;
+	font-weight: bold;
+}
 
 
 
