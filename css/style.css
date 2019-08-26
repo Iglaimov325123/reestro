@@ -6,6 +6,7 @@
 }*/
 *{
 	font-family: 'Gilroy';
+	color: #2f2c3f;
 }
 .offer-header{
 	text-align: center;
@@ -739,6 +740,7 @@ width:36px;
 .reviews-slider .item{
 	width: 350px;
 	margin-right: 15px; 
+	display: inline-block;
 }
 .reviews-slider .item .text{
 	width: 100%;
@@ -767,15 +769,16 @@ width:36px;
 }
 .reviews-slider .item .name-block .name{
 	height: 100px;
-	padding: 0px 0px 0px 20px;
+	padding: 60px 0px 0px 20px;
 	vertical-align: bottom;
 	font-size: 14px;
 	font-weight: 200;
 	flex: 1;
     font-style: normal;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
+
 }
 .reviews-slider .item .name-block .name div{
 	font-size: 16px;
@@ -783,9 +786,79 @@ width:36px;
 }
 
 
+.btn-all-reviews{
+	display: block;
+	border: 1px solid #2f2c3f;
+	color: #2f2c3f;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 14px 29px 10px;
+	width: 30%;
+	margin: 20px auto;
+	text-align: center;
+}
+.btn-all-reviews:hover{
+	text-decoration: none;
+	color: #2f2c3f;
+	background-color: #f0f2f8;
+}
 
+.articles h2{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 30px;	
+}
+.articles .article{
+	margin-bottom: 30px;
+}
+.articles .article img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.articles .article h3{
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+.articles .article p{
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	padding: 15px 0px 20px
+}
+.articles .article a{
+	display: block;
+	padding-right: 20px;
+	background-image: url(../img/article-arrow.png);
+	background-position: 91px 5px;
+	background-repeat: no-repeat;
+	text-decoration: underline;
+	font-size: 16px;
+	font-weight: bold;
+	color: #e8440d;
+	float: right;
+}
+.articles .article a:hover{
+	text-decoration: none;
+}
+.footer-1{
+	background-color: #e0e3ea;
+	padding-bottom: 25px;
 
+}
+.footer-1 h2{
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
+.form-news{
+	display: flex;
+	justify-content: space-between;
+}
 
 
 
