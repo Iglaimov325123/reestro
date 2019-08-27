@@ -54,6 +54,7 @@
     position: absolute;
     top: 18px;
     left: 30px;
+    color: #e8440d;
 } 
 .btn-1 span{
     border-left: 1px solid #e8440d;
@@ -61,6 +62,15 @@
     padding-left: 10px;
     font-size: 14px;
 	font-weight: bold;
+	color: #e8440d;
+}
+.btn-block .btn-2 {
+	padding: 10px 20px 10px 20px;
+}
+.btn-block .btn-2 i{
+	position: relative;
+	top: 7px;
+	left: -6px;
 }
 .btn-1:hover{
 	color: #e8440d;
@@ -73,7 +83,6 @@
 	width: 100%;
 	padding: 10px 20px 10px 47px;
 	border: 1px solid #fff;
-	color: #fff;
 	background-color: #2f2c3f;
 }
 .btn-2 i{
@@ -81,6 +90,7 @@
     display: inline-block;
     position: absolute;
     top: 18px;
+    color: #fff;
     left: 30px;
 } 
 .btn-2 span{
@@ -89,6 +99,7 @@
     padding: 10px 10px 10px 10px;
     font-size: 14px;
 	font-weight: bold;
+	color: #fff;
 }
 .btn-2:hover{
 	color: #fff;
@@ -859,15 +870,104 @@ width:36px;
 	display: flex;
 	justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
+.form-news .name, .form-news .email{
+	width: 30%;
+	margin-right: 10px;
+	padding: 15px 10px;
+	font-size: 16px;
+	font-weight: normal;
+	border: 1px solid #cfd0d7;
+	background-color: #f0f2f8;
+}
+.form-news .submit{
+	flex: 1;
+    text-align: center;
+    padding: 10px 0px;
+    background: #d23f0f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px #d23f0f;
+}
+.form-news .submit:hover{
+    text-decoration: none;
+    background-color: #d6572d;
+}
+footer .container .footer-title{
+	flex: 1;
+	text-align: left;
+	height: 60px;
+}
+footer .container .footer-left a{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+footer .container a img{
+	width: 100%;
+}
+footer .container .footer-title h2{
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+footer .container .footer-title h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+footer .footer-menu{
+	padding: 20px 10px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+footer .footer-menu .m-1{
+	width: 25%;
+}
+footer .footer-menu .m-2{
+	width: 31%;
+}
+footer .footer-menu .m-3{
+	width: 21%;
+}
+footer .footer-menu .m-4{
+	width: 23%;
+}
+footer .footer-menu ul{
+	list-style: none;
+	padding-left: 0px;
+}
+footer .footer-menu ul li{
+	width: 100%;
+	text-align: left;
+	padding: 15px 0px 15px;
+}
+footer .footer-left .footer-menu ul li a{
+	text-decoration: none;
+	color: #2f2c3f;
+	font-size: 14px;
+	font-weight: 500;
+    font-style: normal;
+}
+footer .footer-menu ul li a:hover{
+	text-decoration: underline;
+}
+.copyright{
+	border-top: 1px solid #cfd0d7;
+	height: 50px;
+	padding-top: 15px;
+}
+.copyright p{
+	float: left;
+}
+.copyright a{
+	float: right;
+	color: #2f2c3f;
+	text-decoration: underline;
+}
+.copyright a:hover{
+	text-decoration: none;
+}
 
 
 
