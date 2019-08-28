@@ -750,7 +750,7 @@ width:36px;
 }
 .reviews-slider .item{
 	width: 350px;
-	margin-right: 15px; 
+	padding: 0px 5px; 
 	display: inline-block;
 }
 .reviews-slider .item .text{
@@ -795,7 +795,34 @@ width:36px;
 	font-size: 16px;
 	font-weight: bold;
 }
+.reviews-slider .slick-arrow{
+	border: 1px solid #2f2c3f;
+	width: 40px;
+	height: 40px;
+}
+.reviews-slider .slick-arrow:before{
+	content: "";
+	display: block;
+	margin-left: 10px;
+	height: 15px;
+	width: 16px;
+	background: url(../img/slider-arrow.png);
+}
+.reviews-slider .slick-arrow:hover{
+	border-color: #e8440d;
+}
+.reviews-slider .slick-arrow:hover:before{
+		background: url(../img/slider-arrow-hover.png);
+}
+.reviews-slider .slick-prev{
+	left:  -45px;
 
+}
+.reviews-slider .slick-next{
+	transform: rotate(180deg);
+	top:106px;
+	right: -45px;
+}
 
 .btn-all-reviews{
 	display: block;
@@ -967,6 +994,154 @@ footer .footer-menu ul li a:hover{
 }
 .copyright a:hover{
 	text-decoration: none;
+}
+@media(max-width: 1199px){
+	.header-1 .region h3{
+		font-size: 16px;
+	}
+	.header-1 .region p{
+		font-size: 14px;
+	}
+	.btn-1 span{
+		padding-left: 4px;
+		font-size: 12px;
+	}
+	.btn-2 span{
+		font-size: 12px;
+	}
+	.nav-main li a{
+		font-size: 14px;
+	}
+	.nav-second li a{
+		font-size: 12px;
+	}
+	.checkbox-label{
+		margin-top: -10px;
+	}
+	.panel-3 a {
+		width: 70px
+	}
+	.panel-3 span{
+		padding: 6px 5px 10px 6px;
+		font-size: 12px;
+	}
+	.raiting-table tr td{
+		font-size: 14px;
+	}
+	.btn-about-rating{
+		font-size: 11px;
+	}
+	.btn-register-company{
+		font-size: 11px;
+	}
+	footer .footer-left .footer-menu ul li a{
+		padding-bottom: 10px;
+	}
+}
+@media(max-width: 991px){
+	.header-1 .region h3{
+		font-size: 12px;
+	}
+	.header-1 .region p{
+		font-size: 11px;
+	}
+	.btn-1{
+		padding: 3px 5px 4px 23px;
+	}
+
+	.btn-1 span{
+		font-size: 10px;
+	}
+	.btn-1 i{
+		font-size: 14px;
+		top: 9px;
+    	left: 21px;
+	}
+	.btn-2{
+		padding: 3px 5px 4px 23px;
+	}
+	.btn-2 span{
+		font-size: 10px;
+		padding: 8px 10px 7px 10px;
+	}
+	.btn-2 i{
+		font-size: 14px;
+		top: 9px;
+    	left: 21px;
+	}
+	.nav-main li a{
+		font-size: 11px;
+	}
+	.nav-main{
+		padding: 10px 0px;
+	}
+	.container-1 input#search{
+		height: 43px;
+		font-size:12px;
+	}
+	.container-1 .icon{
+		top: 9px;
+	}
+	.nav-second{
+		padding: 0px;
+	}
+	.nav-second li{
+		padding: 5px 12px
+	}
+	.header-3{
+		padding: 5px 0px;
+	}
+	.custom-select-1{
+		height: 42px;
+	}
+	.custom-select-1 select{
+		font-size: 12px;
+		padding: 5px 15px 5px 10px;
+		height: 40px;
+	}
+	.panel-3{
+		padding: 0px;
+	}
+	.panel-3 a{
+		height: 42px;
+		font-size: 15px;
+		padding: 12px 0px;
+		width: 35px;
+	}
+	#toggles{
+		width: 60px;
+	}
+	.panel-3 span{
+		padding: 0px 5px 10px 6px;
+	}
+	.raiting-table tr td{
+		font-size: 10px;
+	}
+	.btn-block .btn-2{
+		padding: 3px 5px 4px 6px;
+	}
+	.btn-block .btn-2 span{
+		font-size: 10px;
+		padding: 8px 10px 7px 6px;
+	}
+	.btn-block .btn-2 i{
+		font-size: 14px;
+		top: 3px;
+    	left: -1px;
+	}
+	.footer-1 h2{
+		font-size: 14px;
+	}
+	.reviews-slider .slick-next{
+		top: 150px;
+	}
+	.reviews-slider .item .name-block .name div{
+		font-size: 12px;
+	}
+	.reviews-slider .item .name-block .name{
+		padding: 30px 0px 0px 10px;
+		font-size: 12px;
+	}
 }
 
 
